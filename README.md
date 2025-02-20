@@ -6,7 +6,7 @@ Harmoni is a simple e-commerce platform designed to showcase a variety of produc
 
 ## Deployed Link
 
-The deployed version of the application at: [E-Commerce UI Live](https://localhost:3000/)
+The deployed version of the application at: [E-Commerce UI Live](https://ecommerce-harmoni.vercel.app/)
 
 ## Installation and Setup
 

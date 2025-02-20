@@ -1,0 +1,66 @@
+.services-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.services-horizonatlRule {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 2%;
+
+}
+
+.service-item {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+
+.service-icon {
+    color: #fff;
+    background-color: var(--darkGray);
+    padding: 15px 18px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 0 5px var(--grayishLavender), 0 0 0 10px var(--grayishLavender);
+}
+
+.service-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+
+}
+
+.service-description {
+    font-size: 1rem;
+    color: #555;
+}
+
+@media (min-width: 768px) {
+    .services-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1024px) {
+    .services-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

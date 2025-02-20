@@ -1,0 +1,112 @@
+.footer-section {
+    padding: 40px 20px;
+    background-color: black;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    text-align: left;
+}
+
+.footer-heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #000000;
+    border: 2px solid #fff;
+    border-radius: 4px;
+}
+
+.subscribe-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    background: transparent;
+    color: #fff;
+    outline: none;
+    width: 4rem;
+}
+
+.subscribe-button {
+    background-color: #000000;
+    color: #7b7b7b;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+.footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-list li {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #fff;
+    line-height: 30px;
+}
+
+.footer-list p {
+    margin: 5px 0;
+    font-size: 1rem;
+    color: #fff;
+    line-height: 30px;
+}
+
+.footer-divider {
+    border: 0;
+    height: 1px;
+    background-color: #777;
+    margin: 30px 0;
+}
+
+.footer-copyright {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.support-list {
+    line-height: 27px;
+}
+
+.support-list-email {
+    line-height: 24px;
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
